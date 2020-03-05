@@ -24,8 +24,7 @@ router.post(
     check('email', 'Email is Required')
       .not()
       .isEmpty(),
-    check('email', 'Invalid Email').isEmail(),
-    check('mobile', 'Mobile should contains only numbers').isNumeric()
+    check('email', 'Invalid Email').isEmail()
   ],
   async (req, res) => {
     const errors = validationResult(req);

@@ -14,6 +14,7 @@ Backend - https://github.com/rishabh-9000/locusnine-frontend
 Install Dependencies
 
 ```bash
+git clone https://github.com/rishabh-9000/locusnine-backend.git
 cd locusnine-backend
 npm install
 ```
